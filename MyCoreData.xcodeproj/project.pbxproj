@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2837F15626312BC3008B32E9 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2837F15426312BC3008B32E9 /* 02.jpg */; };
+		2837F15726312BC3008B32E9 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2837F15526312BC3008B32E9 /* 01.jpg */; };
 		283E3E4C2627F42B0019AF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E4B2627F42B0019AF65 /* AppDelegate.swift */; };
 		283E3E4E2627F42B0019AF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E4D2627F42B0019AF65 /* SceneDelegate.swift */; };
 		283E3E502627F42B0019AF65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E4F2627F42B0019AF65 /* ViewController.swift */; };
@@ -14,9 +16,15 @@
 		283E3E562627F42B0019AF65 /* MyCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E542627F42B0019AF65 /* MyCoreData.xcdatamodeld */; };
 		283E3E582627F42B0019AF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283E3E572627F42B0019AF65 /* Assets.xcassets */; };
 		283E3E5B2627F42B0019AF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283E3E592627F42B0019AF65 /* LaunchScreen.storyboard */; };
+		283E3E662627F52A0019AF65 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E622627F52A0019AF65 /* UserData+CoreDataClass.swift */; };
+		283E3E672627F52A0019AF65 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E632627F52A0019AF65 /* UserData+CoreDataProperties.swift */; };
+		283E3E682627F52A0019AF65 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E642627F52A0019AF65 /* Car+CoreDataClass.swift */; };
+		283E3E692627F52A0019AF65 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E3E652627F52A0019AF65 /* Car+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2837F15426312BC3008B32E9 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		2837F15526312BC3008B32E9 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		283E3E482627F42B0019AF65 /* MyCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283E3E4B2627F42B0019AF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283E3E4D2627F42B0019AF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		283E3E572627F42B0019AF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283E3E5A2627F42B0019AF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283E3E5C2627F42B0019AF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283E3E622627F52A0019AF65 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		283E3E632627F52A0019AF65 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		283E3E642627F52A0019AF65 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		283E3E652627F52A0019AF65 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,10 @@
 		283E3E3F2627F42B0019AF65 = {
 			isa = PBXGroup;
 			children = (
+				283E3E622627F52A0019AF65 /* UserData+CoreDataClass.swift */,
+				283E3E632627F52A0019AF65 /* UserData+CoreDataProperties.swift */,
+				283E3E642627F52A0019AF65 /* Car+CoreDataClass.swift */,
+				283E3E652627F52A0019AF65 /* Car+CoreDataProperties.swift */,
 				283E3E4A2627F42B0019AF65 /* MyCoreData */,
 				283E3E492627F42B0019AF65 /* Products */,
 			);
@@ -59,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				283E3E4B2627F42B0019AF65 /* AppDelegate.swift */,
+				2837F15526312BC3008B32E9 /* 01.jpg */,
+				2837F15426312BC3008B32E9 /* 02.jpg */,
 				283E3E4D2627F42B0019AF65 /* SceneDelegate.swift */,
 				283E3E4F2627F42B0019AF65 /* ViewController.swift */,
 				283E3E512627F42B0019AF65 /* Main.storyboard */,
@@ -128,9 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2837F15726312BC3008B32E9 /* 01.jpg in Resources */,
 				283E3E5B2627F42B0019AF65 /* LaunchScreen.storyboard in Resources */,
 				283E3E582627F42B0019AF65 /* Assets.xcassets in Resources */,
 				283E3E532627F42B0019AF65 /* Main.storyboard in Resources */,
+				2837F15626312BC3008B32E9 /* 02.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283E3E692627F52A0019AF65 /* Car+CoreDataProperties.swift in Sources */,
+				283E3E672627F52A0019AF65 /* UserData+CoreDataProperties.swift in Sources */,
+				283E3E662627F52A0019AF65 /* UserData+CoreDataClass.swift in Sources */,
 				283E3E562627F42B0019AF65 /* MyCoreData.xcdatamodeld in Sources */,
+				283E3E682627F52A0019AF65 /* Car+CoreDataClass.swift in Sources */,
 				283E3E502627F42B0019AF65 /* ViewController.swift in Sources */,
 				283E3E4C2627F42B0019AF65 /* AppDelegate.swift in Sources */,
 				283E3E4E2627F42B0019AF65 /* SceneDelegate.swift in Sources */,
